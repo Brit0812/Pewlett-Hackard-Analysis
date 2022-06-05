@@ -44,7 +44,9 @@ ORDER BY COUNT(title) DESC;
 --whats actually needed?
     --first and last name 
     --birth date
+    --hire date
     --current employee 
+    --title
 
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
     e.first_name,
