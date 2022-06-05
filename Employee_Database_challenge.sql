@@ -60,10 +60,10 @@ FROM employees as e
 LEFT OUTER JOIN dept_emp as de
 --left outer join is to include unmatched rows from ONE table
 ON e.emp_no= de.emp_no
-LEFT JOIN 
+LEFT JOIN titles as t
 --returns all rows from the left table, and the matching rows from the right table.
 ON e.emp_no= t.emp_no
-WHERE (de.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 AND (de.to_date='9999-01-01')
 ORDER BY e.emp_no;
 
