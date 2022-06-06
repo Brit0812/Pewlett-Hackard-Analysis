@@ -23,11 +23,11 @@ The first schema to be run, creates a list of the employees who will be retiring
 
 •	 The other table created shows each departments retirement count, which would prove useful as HR and management would know the amount of people they’d need to hire in each department.
 
-(image)
+![](images/title_count.png)
 
 The mentorship programs eligible employees need to be collected to begin their new training as people begin to retire. After creating a new schema for its found that there are 1549 eligible mentees, who were born in 1965. 
 
-(image)
+![](images/mentorship_elig.png)
 
 ## Summary 
 
@@ -37,9 +37,9 @@ The mentorship program would allow those working at the company to gain more exp
 
 In the table below (image #) shows the departments that need to be filled as employees begin to retire. The table groups the retirees into their perspective departments and their roles, which would allow HR a visual on the departments that would be impacted. Some departments will suffer more significantly than others, for example: production and development senior engineers total a loss of nearly 26,000 employees.
 
-(image)
+![](images/dept_role_fill.png)
 
 When looking for retiring employees to mentor the upcoming generation and their endeavors with the company the data was filters by people with the following titles: managers, senior (staff, engineers, etc.), and leaders. After their titles were pulled, which would, in theory, make them the most qualified they were them grouped by their department and a count. There is a great number of potential mentors, to assist in the development of the future employees. 
 
-(image)
+![](images/training_staff.png)
  
