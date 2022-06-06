@@ -19,7 +19,7 @@ The first schema to be run, creates a list of the employees who will be retiring
 
 •	Since we have a list of the potential retirees in a CSV, named, retirement_titles, we can now utilize that information to filter or clean the data. The removal of the duplicate employees was done so by using SELECT DISTINCT ON (rt.emp_no) was used since the duplicates were caused by the employee number. The removal of the duplicate employee numbers reduced the total number of retirees significantly, as the duplicates were removed, leaving the new total at 72458.
 
-(image)
+![](images/no_dup_retire.png)
 
 •	 The other table created shows each departments retirement count, which would prove useful as HR and management would know the amount of people they’d need to hire in each department.
 
