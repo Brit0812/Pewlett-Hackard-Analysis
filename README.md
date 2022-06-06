@@ -7,7 +7,7 @@ The purpose of this analysis is to help Pewlett Hackard get back on track with t
 
 To create a schema QuickDBD, allows one to create an ERD (Entity-Relationship Diagram), which is a tool used to depict the relationships within the provided data. The visual provides an outline or a “blueprint” of the correlating relationships between the data.  The ERD assists in the creation of the schema, which is created in PostgreSQL and pgAdmin. The schema creates new tables or CSV, where the data it was cleaned and organized by, that would then be exported and utilized by HR and management. 
 
-(image)
+![](images/QuickDBD-export.png)
 
 ## Results
 
